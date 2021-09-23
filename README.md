@@ -33,11 +33,11 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
  
 The configuration details of each machine may be found below.
 
- | Name     | Function      | IP Address   | Operating System |
+| Name     | Function      | IP Address   | Operating System |
 |----------|---------------|--------------|------------------|
 | Jump Box | Gateway       | 10.0.0.4     | Linux            |
-| DVWA 1   | Web Server    | 10.0.0.5     | Linux            |
-| DVWA 3   | Web Server    | 10.0.0.6     | Linux            |
+| Web-1    | Web Server    | 10.0.0.5     | Linux            |
+| Web-3    | Web Server    | 10.0.0.6     | Linux            |
 | ELK      | ELK Container | 10.1.0.4     | Linux            |
 | Load Bal |Balance traffic| 104.42.97.205| Linux            |
  
